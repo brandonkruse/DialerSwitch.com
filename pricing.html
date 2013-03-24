@@ -48,14 +48,14 @@
             
             <div class="siteContainer">
                 
-                <a href=""><div id="logo"></div></a>
+                <a href="index.html"><div id="logo"></div></a>
                 
                 <div class="right">
                     <nav>
                         <ul>
-                            <li class="active"><a href="">Home</a></li>
+                            <li><a href="index.html">Home</a></li>
                             <li><a href="index.html#startFeatures">Features</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
+                            <li class="active"><a href="pricing.html">Pricing</a></li>
                             <li><a href="#" data-reveal-id="contact-form">Contact</a></li>
                             <li><a href="dashboard.html">Login</a></li>
                         </ul>
@@ -66,25 +66,13 @@
 
         </header>
         
-        <section id="featuredRegion">
+        <section id="pageTitleRegion">
             
             <section class="zone-1">
                 <div class="siteContainer">
-                    <h1>Offering the most reliable hosted SIP switch</h1>
+                    <h1>Scalable Pricing and Plans</h1>
                 </div>
             </section>
-        
-            <div class="siteContainer">
-                
-                <section class="zone-2">
-                    <h5>Cloud-based telecom platform with high availability 
-                        Full LCR capability with over 10k calls per second</h5>
-                    
-                    <a href="#" class="btn rounded">Request Demo</a>
-                    
-                </section>
-                
-            </div>
         
         </section>
         
@@ -92,61 +80,43 @@
             
             <section class="zone-1">
                 <div class="siteContainer">
-                    <p>Full horizontal scalability with no global locking for virtually unlimited (and linear) scalability</p>
+                    <p>Our plans have been customized to fit your small, medium, or large-sized business.</p>
                 </div>
             </section>
         
         </section>
         
-        <section id="startFeatures" class="sectionTitleRegion">
+        <section class="pricingTitleRegion">
             
-            <section class="zone-1">
-                <div class="siteContainer">
-                    <h2>Key Features</h2>
-                </div>
-            </section>
-        
-        </section>
-        
-        <section class="featuresRegion">
-
             <div class="siteContainer">
-               
-               <section class="zone-1">
                 
-                <img src="images/switching-infrastructure.png" class="ir scale" alt="" />
+                <section class="zone-1">
+                        <h2>Pricing is available upon request. If you'd like more info, fill out the form.</h2>
+                </section>
                 
-               </section>
-               
-               <section class="zone-2">
-                
-                <h2>Managed Switching Infrastructure</h2>
-                
-                <p>Suspendisse dignissim dapibus enim id ultrices. Ut augue est, laoreet vel tempor sed, facilisis ullamcorper lectus. Nulla tincidunt felis sit amet risus adipiscing ac volutpat arcu ullamcorper. Mauris nisl ipsum, tempus quis pulvinar sit amet, malesuada non lorem. Nam tincidunt, purus ut cursus sodales, dolor magna auctor mauris, sed tincidunt mi ipsum vitae nulla. Sed in tempor mi. Donec a pretium massa. Integer adipiscing pellentesque nisl, sit amet ullamcorper mauris tristique in.</p>
-                
-               </section> 
- 
             </div>
-        
+            
         </section>
         
-        <section class="featuresRegion">
+        <section id="pricingFormRegion">
 
             <div class="siteContainer">
-                
-              <section class="zone-2">
-                
-                <h2>Cross Data Center Replication (XDCR)</h2>
-                
-                <p>Suspendisse dignissim dapibus enim id ultrices. Ut augue est, laoreet vel tempor sed, facilisis ullamcorper lectus. Nulla tincidunt felis sit amet risus adipiscing ac volutpat arcu ullamcorper. Mauris nisl ipsum, tempus quis pulvinar sit amet, malesuada non lorem. Nam tincidunt, purus ut cursus sodales, dolor magna auctor mauris, sed tincidunt mi ipsum vitae nulla. Sed in tempor mi. Donec a pretium massa. Integer adipiscing pellentesque nisl, sit amet ullamcorper mauris tristique in.</p>
-                
-               </section> 
                
-               <section class="zone-1">
+                <section class="zone-1">
+                    
+                        <form method="post" action="http://www.drew-parker.com/ds-pricing-inquiry.php" id="pricing-form">
+                            
+                            <fieldset>
+                                    <input type="text" class="pricingTextInput" name="Name" placeholder="name" id="name" />
+                                    <input type="text" class="pricingTextInput" name="Email" placeholder="email" id="email" />
+                                    <input type="text" class="pricingTextInput" name="Phone" placeholder="phone" id="phone" />	
+                            </fieldset>
+                            
+                            <button  type="submit" id="sendmail" name="submit" value="Submit">Submit Request</button>
+                            
+                        </form>
                 
-                <img src="images/cross-center.png" class="ir scale" alt="" />
-                
-               </section>
+                </section>
  
             </div>
         
@@ -181,15 +151,7 @@
         <!-- Load JavaScript -->
       
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        
-        <script>
-			$(document).ready(function(){
-				$('#featuredRegion .btn').addClass('animated tada');
-			});
-		</script>
-        
         <script language="javascript" type="text/javascript" src="js/jquery.reveal.js"></script>
-      
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
       
