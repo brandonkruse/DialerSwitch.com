@@ -162,7 +162,7 @@ nav ul li:hover {
 #featuredRegion .btn {
     background: transparent url(images/featured-btn.png) repeat;
     border: 1px solid #671129;
-    padding: 15px 65px 15px 65px;
+    padding: 25px 65px 25px 65px;
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
